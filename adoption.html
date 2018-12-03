@@ -21,21 +21,20 @@
         </nav>
         
     </header>
-           <div> <img alt="baby bunnies lined up" src="images/baby_bunnies_line_up.jpg" height=220 width="100%" >
+           <div> <img alt="baby bunnies lined up" src="images/baby_bunnies_line_up.jpg" height=220>
         </div> <br>
     
     
-   <main1>
+   <main>
         <div class="maintext">
         <h1>Adopt a bunny today!</h1>
         </div>
        <br>
-        </main1> 
-    <main2>
+  
     <div class="maintext"><p style="color:dimgray">Looking to adopt a furry friend? Fill out this form to see what kind of bunny you may want, and we will get back to you with advice on where to go and how to take care of your new companion! Once you're done with the form, hit submit and you should hear from us within the week.</p></div>
-     </main2>  
+     
        
-      <main2> 
+      
           
           <form>
           
@@ -60,7 +59,7 @@
               
               <p>
               <label for="bunnytypes">Type of Bunny You're Interested In</label>
-                  <select name="bunnytypes" id="bunnytypes" multiple="true">
+                  <select name="bunnytypes" id="bunnytypes">
                   <option value="lionhead">Lionhead</option>
                   <option value="minilop">Mini Lop</option>
                   <option value="netherlanddwarf">Netherland Dwarf</option>
@@ -77,25 +76,23 @@
                   </select>
               </p>
               
-              <p>
-              
+             
+              <div class="radiobutton">
                 <label for="doyouhavekids">Do you have kids?</label>
                   
-                  <input type="radio" name="doyouhavekids" value="yes">Yes
+                  <input id="doyouhavekids" type="radio" name="doyouhavekids" value="yes">Yes
                   
                   <input type="radio" name="doyouhavekids"
                          value="no" checked> No
-              </p>
-              
-              <p> 
+                  <br>
+           
               
               <label for="otherpets">Do you have any other pets?</label>
                   
-                  <input type="radio" name="otherpets" value="yes"> Yes
+                  <input id="otherpets" type="radio" name="otherpets" value="yes"> Yes
                   
                   <input type="radio" name="otherpets" value="no" checked> No
-              
-              </p>
+             </div>
               
               <p>
               
@@ -115,7 +112,7 @@
           
           </form>
      
-        </main2>
+        </main>
 
         
         <footer>
